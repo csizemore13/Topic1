@@ -1,0 +1,29 @@
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+public class NumberTable1 extends JFrame {
+
+	JTable jt;
+	
+	String[] column_headers={"A", "A^2", "A^3"};
+	String[][] answers={{"1", "1", "1"}, {"2", "4", "8"}, {"3", "9", "27"}, {"4", "16", "64"}};
+	
+	public NumberTable1()
+	{
+		jt=new JTable(answers,column_headers);
+		jt.setBounds(50,50,200,230);
+		JScrollPane js=new JScrollPane(jt);
+		this.add(js);
+		this.setSize(300,400);
+		this.setVisible(true);
+		
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new NumberTable1();
+
+	}
+
+}

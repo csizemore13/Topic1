@@ -1,0 +1,17 @@
+public class Exercise111 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int birth = 4204800;
+int death = 2102400;
+int imm = 525600;
+System.out.println("Population Year 1:"); 
+System.out.println(312032486 + (birth + imm) - death);
+System.out.println("Population Year 2:");
+System.out.println(314660486 + (birth + imm) - death);
+System.out.println("Population Year 3:");
+System.out.println(317288486 + (birth + imm) - death);
+System.out.println("Population Year 4:");
+System.out.println(319916486 + (birth + imm) - death);
+System.out.println("Population Year 5:");
+System.out.println(322544486 + (birth + imm) - death);

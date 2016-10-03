@@ -1,0 +1,18 @@
+
+public class Exercise113 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double a = 3.4;
+double b = 50.2;
+double c = 2.1;
+double d = .55;
+double e = 44.5;
+double f = 5.9;
+double x = (((e * d) - (b * f))/((a * d) - (b * c)));
+double y = (((a * f) - (e * c))/((a * d) - (b * c)));
+System.out.println((3.4 * x) + (50.2 * y));
+System.out.println((2.1 * x) + (.55 * y));
+	}
+
+}

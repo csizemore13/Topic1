@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Exercise220 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner s = new Scanner(System.in);
+		   double interestrate, balance, interest;
+		  
+		   System.out.print("Enter the balance and interest rate:");
+		   balance = s.nextDouble();
+		   interestrate = s.nextDouble();
+		  
+		   interest = balance * (interestrate / 1200) ;
+		   		   
+		  
+		   System.out.print("The interest is " + interest + ".");
+		}
+	}
+
+

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Exercise223 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner s = new Scanner(System.in);
+		   double drivingdistance, mpg, pricepg, tripcost;
+		  
+		   System.out.print("Enter the driving distance, miles per gallon, and price of fuel per gallon:");
+		   drivingdistance = s.nextDouble();
+		   mpg = s.nextDouble();
+		   pricepg = s.nextDouble();
+		  
+		   tripcost = (drivingdistance / mpg) * pricepg ;
+		   		   
+		  
+		   System.out.print("The cost of driving is " + tripcost + ".");
+		}
+	}
+
+

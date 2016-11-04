@@ -1,11 +1,11 @@
 import java.util.Scanner;
  
-public class ProgrammingEx3_18 {
+public class Exercise 3.18 {
  
  public static void main(String[] args) {
   Scanner input = new Scanner(System.in);
  
-  System.out.print("Enter the weight of the package in pound:");
+  System.out.print("Enter the weight of the package in pounds:");
   double w = input.nextDouble();
   double cost = 0;
  
@@ -20,7 +20,7 @@ public class ProgrammingEx3_18 {
   }
  
   if (cost == 0) {
-   System.out.print("the pakage cannot be shipped.");
+   System.out.print("the package cannot be shipped.");
    System.exit(0);
   }
  
